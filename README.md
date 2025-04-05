@@ -1,4 +1,4 @@
-# 🚀 SmartDesk Backend
+# 🚀 SmartDesk
 
 Clean, modular backend for task and note management.  
 Built with TypeScript, Express, PostgreSQL (manual SQL) — production-ready architecture.
