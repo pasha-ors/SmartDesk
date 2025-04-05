@@ -23,5 +23,3 @@ Built with TypeScript, Express, PostgreSQL (manual SQL) — production-ready arc
 - Manual SQL (no ORM)
 
 ---
-
-## 🗂 Folder Structure (Short)
