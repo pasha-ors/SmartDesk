@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1491169d-cfaa-4571-b84e-1cf5c6043097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/core/entities/UserBase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/dto/LoginDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/dto/RegisterDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/dto/TokenDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/dto/UserTokenDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/entities/AuthUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/entities/Token.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/ITokenRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/ITokenService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/repositories/AuthRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/repositories/TokenRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/services/AuthService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/services/TokenService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/users/entities/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/core/error/InternalError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/modules/auth/dto/PayloadDto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/core/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/core/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/core/db/pgClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/core/db/pgClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/dto/UserTokenDto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/entities/AuthUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/auth/entities/AuthUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/auth/interfaces/IAuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/services/AuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/auth/services/AuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/auth/services/TokenService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/auth/services/TokenService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/modules/users/entities/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/modules/users/entities/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -97,7 +85,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743662802272</updated>
-      <workItem from="1743662803427" duration="33086000" />
+      <workItem from="1743662803427" duration="33405000" />
+      <workItem from="1743929370326" duration="75000" />
+      <workItem from="1743942311792" duration="4197000" />
     </task>
     <servers />
   </component>

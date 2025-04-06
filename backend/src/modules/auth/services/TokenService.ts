@@ -2,8 +2,8 @@ import {ITokenService} from "../interfaces/ITokenService";
 import jwt from 'jsonwebtoken';
 import {TokenDto} from "../dto/TokenDto";
 import {ITokenRepository} from "../interfaces/ITokenRepository";
-import {UserTokenDto} from "../dto/UserTokenDto";
 import {Token} from "../entities/Token";
+import {PayloadDto} from "../dto/PayloadDto";
 
 
 export class TokenService implements ITokenService {
@@ -12,7 +12,7 @@ export class TokenService implements ITokenService {
         private readonly tokenRepo: ITokenRepository
     ) {}
 
-    generateToken(payload: UserTokenDto): TokenDto {
+    generateToken(payload: PayloadDto): TokenDto {
         const accessToken = jwt.sign(payload, process.env.ACCESS_TOKEN!, {expiresIn: '30m'});
         const refreshToken = jwt.sign(payload, process.env.REFRESH_SECRET!, {expiresIn: "30d"});
 
