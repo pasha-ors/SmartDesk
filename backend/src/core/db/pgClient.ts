@@ -7,8 +7,7 @@ const pool = new Pool({
     connectionString: process.env.DATABASE_URL
 })
 
-pool
-    .query('SELECT NOW()')
+pool.query('SELECT NOW()')
     .then((res) => {
         console.log(`PostgreSQL connected: ${res.rows[0].now}`);
     })

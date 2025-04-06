@@ -27,7 +27,8 @@ services:
       - ./backend:/app
     environment:
       PORT: 4000
-      JWT_SECRET: supersecret
+      ACCESS_TOKEN: secret_access_token
+      REFRESH_TOKEN: secret_refresh_token
       DATABASE_URL: postgres://postgres:password@db:5432/smartdesk
     command: npm run dev
 
